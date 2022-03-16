@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  background-color: #2799fa;
+  color: white;
+  height: 100px;
+  align-items: center;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+.navbar-header {
+  font-size: 28px;
+}
+
+.navbar-btns {
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar-btn {
+  border: 1px solid white;
+  padding: 8px 24px;
+  border-radius: 4px;
+}
+
+.navbar-btn.scores-btn {
+  margin-left: 24px;
+}
+
+.navbar-btn.selected {
+  background-color: #767676;
+  border: none;
+}

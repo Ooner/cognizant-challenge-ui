@@ -1,0 +1,40 @@
+.solve-container {
+  padding-left: 120px;
+  padding-top: 100px;
+  text-align: left;
+}
+
+.solve-item-container {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+.solve-item-label {
+  width: 150px;
+  display: inline-block;
+}
+
+.solve-item {
+  width: 300px;
+}
+
+.solve-item-input {
+  height: 35px;
+}
+
+.solve-item-textarea {
+  height: 120px;
+}
+
+.solve-item-submit-btn {
+  margin-left: 150px;
+  margin-top: 32px;
+  background-color: #767676;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+}
